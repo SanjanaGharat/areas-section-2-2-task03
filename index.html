@@ -8,12 +8,12 @@
     <style>
         @layer base {
             h1 {
-                color: #2A1786; 
+                color: #2A1786;
             }
             .location-card {
-                border-color: #2A1786; 
+                border-color: #2A1786;
                 transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.5s ease;
-                color: #2A1786; 
+                color: #2A1786;
                 box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
                 border-radius: 1rem;
                 background-size: 200% 200%;
@@ -41,7 +41,7 @@
                 color: #f0f0f0;
             }
             .first-card {
-                background: linear-gradient(-135deg, #2A1786 50%, #ccd1da 50%); 
+                background: linear-gradient(-135deg, #2A1786 50%, #ccd1da 50%);
             }
             .first-card:hover {
                 background: #2A1786;
@@ -49,13 +49,13 @@
                 color: white;
             }
             .middle-card {
-                background: linear-gradient(135deg, #2A1786 50%, #ccd1da 50%); 
+                background: linear-gradient(135deg, #2A1786 50%, #ccd1da 50%);
             }
             .middle-card:hover {
                 background: #2A1786;
             }
             .third-card {
-                background: linear-gradient(-135deg, #2A1786 50%, #ccd1da 50%); 
+                background: linear-gradient(-135deg, #2A1786 50%, #ccd1da 50%);
             }
             .third-card:hover {
                 background: #2A1786;
@@ -71,41 +71,38 @@
     </div>
 
     <div class="container mx-auto mt-8">
-        
         <div class="location-card border-4 rounded-lg p-6 m-6 flex flex-col lg:flex-row items-center justify-center first-card">
             <div class="lg:w-1/4 lg:order-1 h-40 rounded-lg overflow-hidden mr-4">
                 <a href="https://www.google.com/maps/place/Gateway+Of+India+Mumbai" target="_blank" rel="noopener noreferrer">
                     <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1887.1062714819757!2d72.83317018864167!3d18.9219841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1c73a0d5cad%3A0xc70a25a7209c733c!2sGateway%20Of%20India%20Mumbai!5e0!3m2!1sen!2sus!4v1729678461422!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </a>
             </div>
-            <div class="lg:w-3/4 text-center">
-                <h2 class="location-title text-2xl font-semibold mt-4 lg:mt-0">Mumbai</h2>
+            <div class="lg:w-3/4 lg:order-2 text-center lg:text-left">
+                <h2 class="location-title text-2xl font-semibold mt-4">Mumbai</h2>
                 <p class="card-description mt-2">The bustling metropolis of India, known for its vibrant culture and history.</p>
             </div>
         </div>
 
-        
-        <div class="location-card border-4 rounded-lg p-6 m-6 flex flex-col lg:flex-row-reverse items-center justify-center middle-card">
-            <div class="lg:w-1/4 lg:order-1 h-40 rounded-lg overflow-hidden ml-4">
+        <div class="location-card border-4 rounded-lg p-6 m-6 flex flex-col lg:flex-row items-center justify-center middle-card">
+            <div class="lg:w-3/4 lg:order-1 text-center lg:text-right">
+                <h2 class="location-title text-2xl font-semibold mt-4">Delhi</h2>
+                <p class="card-description mt-2">The capital city of India, rich in historical significance and modern vibrancy.</p>
+            </div>
+            <div class="lg:w-1/4 lg:order-2 h-40 rounded-lg overflow-hidden ml-4">
                 <a href="https://www.google.com/maps/place/Dr.+Ambedkar+National+Memorial" target="_blank" rel="noopener noreferrer">
                     <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12622.142367140232!2d77.22174010639051!3d28.681941172226693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfdbc592a5653%3A0x975e06c57eab6d87!2sDr.%20Ambedkar%20National%20Memorial!5e0!3m2!1sen!2sus!4v1729678705335!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </a>
             </div>
-            <div class="lg:w-3/4 text-center">
-                <h2 class="location-title text-2xl font-semibold mt-4 lg:mt-0">Delhi</h2>
-                <p class="card-description mt-2">The capital city of India, rich in historical significance and modern vibrancy.</p>
-            </div>
         </div>
 
-        
         <div class="location-card border-4 rounded-lg p-6 m-6 flex flex-col lg:flex-row items-center justify-center third-card">
             <div class="lg:w-1/4 lg:order-1 h-40 rounded-lg overflow-hidden mr-4">
                 <a href="https://maps.app.goo.gl/45Y2W6ZCpDrM1Zbx5" target="_blank" rel="noopener noreferrer">
                     <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30453.93970956539!2d78.43554748013604!3d17.424142662039696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97558c2e9b6b%3A0x25705363cc844e9d!2sHussain%20Sagar!5e0!3m2!1sen!2sus!4v1729678729733!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </a>
             </div>
-            <div class="lg:w-3/4 text-center">
-                <h2 class="location-title text-2xl font-semibold mt-4 lg:mt-0">Hyderabad</h2>
+            <div class="lg:w-3/4 lg:order-2 text-center lg:text-left">
+                <h2 class="location-title text-2xl font-semibold mt-4">Hyderabad</h2>
                 <p class="card-description mt-2">Known for its rich heritage and culinary delights, the city blends tradition with modernity.</p>
             </div>
         </div>
